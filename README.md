@@ -52,7 +52,7 @@ We have tried different augmentations but none of them was good enough: results 
 
 Models:<br />
 
-Our best real-time model – Faster R-CNN with Mobilenet_v3_FPN backbone. Pretrained weights were taken from torchvision and you can find them in model.py file. It has inference time about 33 fps and examples of It’s work you can find here. Was trained for 10 epochs on Bosch dataset and then for 4 epochs on Bosch dataset + Lisa Dataset with SGD (lr=5e-3, momentum=0.9, weight decay=5e-4) <br />
+Our best real-time model – Faster R-CNN with Mobilenet_v3_FPN backbone. Pretrained weights were taken from torchvision and you can find them in model.py file. It has inference time about 33 fps and examples of it’s work you can find here https://drive.google.com/drive/folders/1n4LkObQbZU6hoj3hLgsIpqV8ZQPUIA6N?usp=sharing. Was trained for 10 epochs on Bosch dataset and then for 4 epochs on Bosch dataset + Lisa Dataset with SGD (lr=5e-3, momentum=0.9, weight decay=5e-4) <br />
 
 Our best model without inference time restrictions is  Faster R-CNN with Resnet50_FPN backbone. The same about backbone – you can find the way to download pretrained weights we were using in model.py file. It has around 10 fps but detection quality is significantly better compare to faster models. Was trained for 10 epochs on Bosch dataset and then for 4 epochs on Bosch dataset + Lisa Dataset with SGD (lr=5e-3, momentum=0.9, weight decay=5e-4). <br />
 Weights for these two models you can download right here https://drive.google.com/drive/folders/1n4LkObQbZU6hoj3hLgsIpqV8ZQPUIA6N?usp=sharing <br />
