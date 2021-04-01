@@ -18,7 +18,7 @@ To use this repo you need the following: <br />
 -pycocotool=2.0.2 <br />
 Be careful, cocoapi does not work with numpy >= 1.18 so please keep numpy version 1.17 <br /> 
 The following example can set up all the required above for anaconda environment: <br />
-conda create -n py36 python=3.6 <br />  
+conda create -n py36 python=3.6 <br />
 conda install -c pytorch torchvision <br />
 conda install -c conda-forge opencv <br /> 
 conda install -c conda-forge matplotlib <br />
